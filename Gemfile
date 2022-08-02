@@ -10,6 +10,8 @@ gem "devise"
 
 gem 'noticed'
 
+gem 'ransack'
+
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
