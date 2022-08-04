@@ -3,7 +3,7 @@
     
   
   <div>
-    <%= link_to "Edit this post", edit_post_path(@post) %> _||_
+    <%= link_to "Edit", edit_post_path(@post) %> _||_
     <%= link_to "Back to posts", posts_path %>
     <br>
     <%= button_to "Destroy this post", @post, method: :delete, class: "btn btn_primary mt-1"%>
